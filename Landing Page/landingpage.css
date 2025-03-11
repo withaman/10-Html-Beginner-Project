@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heroSection{
+    background-image: url(landingpage-bgi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.heroContent{
+    padding:40vh 0vh;
+    text-align: center;
+}
+.heroContent h1{
+    font-size: 4vw;
+    color: #000000;
+}
+.heroContent p{
+    font-size: 1.5vw;
+    color: #fff;
+    margin-top: 1vw;
+}
+.actionButton{
+    width: 5vw;
+    font-size: 0.8rem;
+    height: 1.5vw;
+    margin-top: 1.5vw;
+    background-color: rgb(29, 95, 59);
+    color: #fff;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.actionButton:hover{
+    background-color: rgb(13, 42, 26);
+}
+.features{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+.featureItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5vw 0vw ;
+    width: 20vw;
+    height: 10vw;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.2);
+    border-radius: 2vw;
+}
+.featureContent{
+    text-align: center;
+}
+.featureContent h1{
+    font-size: 2vw;
+    color: black;
+    margin-bottom: 1vw;
+}
+.featureContent p{
+    font-size: 0.8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 53, 53);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 41, 31);
+    height: 3vw;
+}
+footer p{
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
