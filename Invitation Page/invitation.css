@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 128, 62);
+}
+.invitationCard{
+    width: 30vw;
+    height: 25vw;
+    background-color: #fff;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.6);
+    text-align: center;
+}
+.invitationCard h1{
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 0vw 4vw;
+    margin: 2vw 0vw;
+    color: rgb(0, 128, 62);
+}
+.date-time, .venue, .description{
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+    padding: 0vw 5vw;
+}
+.respondButton{
+    width: 7vw;
+    height: 2vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: rgb(0, 128, 62);
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 1vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.respondButton:hover{
+    background-color: rgb(0, 75, 36);
+
+}
