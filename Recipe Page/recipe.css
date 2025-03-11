@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 0, 167);
+    height: 5vw;
+}
+header h1{
+    font-size: 2.5vw;
+    color: #fff;  
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5vw;
+    margin: 5vw 0vw;
+}
+.about p{
+    
+    width: 30vw;
+    padding: 2vw 25vw;
+    background-color: rgb(200, 175, 205);
+    border-radius: 1vw;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.3);
+}
+.ingredients , .instructions{
+    display: inlinde;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10vw;
+    margin: 5vw 10%;
+    background-color: rgb(200, 175, 205);
+    border-radius: 1vw;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.3);
+}
+.ingredients h2, .instructions h2{
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+}
+.ingredients ul, .instructions ol{
+    font-size: 1vw;
+    padding: 0vw 8vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 0, 167);
+    height: 3vw;
+}
+footer p{
+    font-size: 1vw;
+    color: #ffffff;
+}
