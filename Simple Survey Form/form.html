@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+        <section class="formContainer">
+            <form action="" class="form">
+                <h1>Feedback Survey Form</h1>
+                <div class="formContent">
+                <div class="name">
+                    <h2>Name</h2>
+                    <input type="text" id="name" name="name" placeholder="name" required>
+                </div>
+                <div class="email">
+                    <h2>Email</h2>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div> 
+                <div class="age">
+                    <h2>Age</h2>
+                    <input type="number" id="age" name="age" placeholder="age" required>
+                </div>
+                <div class="feedback-type">
+                    <h2>Feedback Type</h2>
+                    <select name="feedback-type" id="feebback-type">
+                        <option value="positive">Positive</option>
+                        <option value="negative">negative</option>
+                        <option value="suggestion">Suggestion</option>
+                    </select>
+                </div> 
+                <div class="servicesUsed">
+                    <h2>Services Used</h2>
+                    <div class="serviceList">
+                        <input type="checkbox" name="service1" id="service1">
+                        <label for="service1">Service 1</label>
+                    </div>
+                    <div class="serviceList">
+                        <input type="checkbox" name="service2" id="service2">
+                        <label for="service1">Service 2</label>
+                    </div>
+                    <div class="serviceList">
+                        <input type="checkbox" name="service3" id="service3">
+                        <label for="service1">Service 3</label>
+                    </div>
+                    
+                </div>
+                <div class="comment">
+                    <h2>Additinal Comments</h2>
+                    <textarea name="comment" id="comment" placeholder="Comment here"></textarea>
+                </div>
+                <div class="button">
+                    <button>Submit Feedback</button>
+                </div>
+                </div> 
+            </form>
+        </section>
+    </main>
+</body>
+</html>
